@@ -34,7 +34,7 @@ public class _01_RobotRace {
 					arr[i].move(10);
 					arr[i].turn(5);
 				}
-				if (arr[i].getY()<=300 && arr[i].getX()<=163) {
+				if (arr[i].getY()<=300 && arr[i].getX()<=170) {
 					JOptionPane.showMessageDialog(null, "Robot at lane " + (i+1) + " is a winner.");
 					inProgress=false;
 				}
